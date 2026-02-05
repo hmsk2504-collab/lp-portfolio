@@ -1,0 +1,265 @@
+/* ===== Base ===== */
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #333;
+  line-height: 1.7;
+}
+
+h1, h2, h3{
+  font-weight: 450;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.inner {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.merit-content {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #025aac;
+  color: #fff;
+  border-radius: 200px;
+  font-weight: bold;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.fv {
+  background-image: url("../images/haikei.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 40vh;
+  padding: 40px 200px;
+}
+
+.fv h1 {
+  font-size: 28px;
+  line-height: 1.3;
+}
+.fv-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.problem h2 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.problem-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.problem-card {
+  background: #D8ECFF;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  width: 1200px;
+  text-align: center;
+}
+
+.problem-image img {
+  width: 1000px;
+  height: auto;
+}
+
+.problem {
+  padding: 40px 200px;
+}
+
+.merit{
+  background-color: #e1e1e1;
+  padding: 120px 0;
+}
+
+.merit + .merit {
+  padding-top: 0px;
+}
+
+.merit .section-title{
+  margin: 0 0 100px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.merit h2{
+  text-align: center;
+  margin: 0;
+  font-size: 32px;
+}
+
+.hilight{
+  color:#0071DA;
+}
+
+.merit-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.merit-head{
+  display: flex;
+  gap: 5px;
+  align-items: center
+}
+
+.merit-image img {
+  width: 300px;
+  height: auto;
+}
+
+.merit-number{
+  font-size: 48px;
+  color:#0071DA;
+}
+.merit h3{
+  font-size: 24px;
+}
+
+.matome{
+  background-image: url("../images/haikei.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 6vh;
+  padding: 20px 20px;
+}
+.matome .inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.matome h2{
+  font-size: 36px;
+}
+
+.price{
+  padding: 30px;
+}
+
+.price .inner{
+  display: flex;
+  justify-content: center;
+}
+
+.price-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+}
+
+.price-main {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: -36px;
+}
+
+p {
+  margin: 1em 0;
+}
+
+
+.price-amount {
+  font-size: 48px;
+  font-weight: 700;
+  color: #025aac;
+  line-height: 1;
+}
+
+.price-unit {
+  font-size: 16px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+   body {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .fv {
+    min-height: 30vh;
+  }
+
+  .problem-list,
+  .merit-content {
+    flex-direction: column;
+    gap: 0px;
+  }
+  
+  .btn {
+    width: 50%;
+    text-align: center;
+  }
+
+   section {
+    padding: 60px 16px;
+  }
+
+   img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .problem-card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .problem-image img {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .problem,
+  .fv {
+    padding: 40px 16px;
+  }
+
+}
